@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Odia', sans-serif;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Asset/Image/bg1.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+button{
+    padding: 8px 25px;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.info{
+    width: 626px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 1s;
+}
+.info h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.info p{
+    color: #ffffffb4;
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 18px;
+}
+.nextButton{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+}
+#previous, #next{
+    width: 20px;
+    cursor: pointer;
+}
+.nextButton :hover{
+    color: #f6b970;
+}
+.pv{
+    position: fixed;
+    left: 750px;
+    bottom: 175px;
+    opacity: 0;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    opacity: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}

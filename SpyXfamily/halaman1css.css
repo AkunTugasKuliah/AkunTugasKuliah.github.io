@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Asset/Image/any.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+button{
+    padding: 8px 25px;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.info{
+    width: 562px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.info h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    color:palevioletred;
+    -webkit-text-stroke: 2px whitesmoke;
+    
+}
+
+.info q{
+    color: blanchedalmond;
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 0px;
+
+}
+.info p{
+    color: #f0eef1;
+    font-size: 15px;
+    margin: 20px 0;
+    line-height: 18px;
+    text-indent: 50px;
+    text-align:justify;
+
+}
+ r{
+    color: white;
+    font-size: 15px;
+    margin: 20px 0;
+    line-height: 18px;
+    text-indent: 50px;
+    text-align:justify;
+
+}
+ v{
+    text-indent: 50px;
+    color: white;
+    font-size: 15px;
+    margin: 20px 0;
+    text-align:justify;
+    line-height: 18px;
+    
+    
+}
+.backButton{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 620px;
+    bottom: 60px;
+}
+.nextButton{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+
+}
+#previous, #next{
+    width: 20px;
+    cursor: pointer;
+}
+.fotofoto2{
+    position: absolute;
+    align-items: center;
+    left: 800px;
+    bottom: 150px;
+    
+}

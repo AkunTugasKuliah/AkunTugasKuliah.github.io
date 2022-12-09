@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(15turn,
+    rgba(0, 0, 0, 0.889),rgb(187 254 255 / 14%)),
+        url(Asset/Background2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.baris{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    transform: scale(0.93);
+}
+.kolom{
+    position: relative;
+    top: 57px;
+    flex-basis: 50%;
+}
+button{
+    padding: 29px 71px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bt{
+    position: relative;
+    top: 10px;
+}
+h1{
+    color: aliceblue;
+    font-size: 100px;
+}
+
+p{
+    color: azure;
+    font-size: 15px;
+    line-height: 18px;
+}
+u{
+    text-decoration-thickness: 3px;
+    line-height: 50px;
+    text-decoration-skip: 1px;
+}
+.card{
+    width: 217px;
+    height: 266px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 38px 31px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card h5{
+    color: aliceblue;
+    position: absolute;
+    transform: translate(7px,232px);
+    font-size: 12px;
+}
+.blockout{
+    display: block;
+    margin-left: -6px;
+    margin-right: -6px;
+    margin-top: 208px;
+    background: rgb(0 0 0 / 37%);
+    border: 24px solid rgba(0, 0, 0, 0);
+    position: relative;
+    border-radius: 10px;
+}
+.rating{
+    position: relative;
+    transform: translate(2px,233px);
+    text-align: right;
+}
+.rating img{
+    transform: scale(0.6);
+}
+.rating h4{
+    position: absolute;
+    color: aliceblue;
+    right: 29px;
+}
+
+.anime1{
+    background-image: linear-gradient( rgb(255 252 252 / 0%),rgb(0 0 0 / 70%)), url(Asset/Anime_1.jpg);
+
+}
+.anime2{
+    background-image: linear-gradient( rgb(255 252 252 / 0%),rgb(0 0 0 / 70%)), url(Asset/Anime_2.jpg);
+
+}
+.anime3{
+    background-image: linear-gradient( rgb(255 252 252 / 0%),rgb(0 0 0 / 70%)), url(Asset/Anime_3.jpg);
+
+}
+.anime4{
+    background-image: linear-gradient( rgb(255 252 252 / 0%),rgb(0 0 0 / 70%)), url(Asset/Anime_4.jpg);
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.list{
+    position: relative;
+    left: 170px;
+    top: 50px;
+}
+.credits{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+        url(Asset/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.text0{
+    color: aliceblue;
+    position: relative;
+    top: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    grid-auto-flow: column;
+}
+
+.mid h2{
+
+    font-size: 50px;
+}
+.inline{
+    width: 313px;
+    height: 8px;
+    display: inline-block;
+
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    background-color: #ffffff;
+}
+.nama-kelompok{
+    background: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: justify;
+    position: relative;
+    color: azure;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    top: 142px;
+    line-height: 3;
+    font-size: 19px;
+    border: 2px ;
+    border-radius: 10px;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
